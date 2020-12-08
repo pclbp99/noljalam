@@ -1,0 +1,605 @@
+@media screen and (max-width:1080px) {
+    .head_top{
+        display: none;
+    }
+    .gnb{
+        height: 60px;
+        position: fixed;
+        z-index: 99999999999; 
+        background-color: #fff;
+    }
+    .gnb .logo img{
+        width: 80px;
+        padding: 5px 0;
+    }
+    .gnb .menu{
+        position: relative;
+    }
+    .gnb .menu > a{
+        display: block;
+        position: absolute;
+        top:18px;
+        right:18px;
+    }
+    .gnb .menu li{
+        display: none;
+    }
+    .m_header{
+        display: block;
+        position: fixed;
+        width:60%;
+        background-color: #fff;
+        z-index: 999999;
+        height: 100%;
+        top:0; right:-60%;
+        
+    }
+    .m_header .m_top_r{
+        width:100%;
+    }
+    .m_header > a{
+        position: absolute;
+        top:2%;
+        right: 3%;
+    }
+    .m_header .m_top_r li{
+        margin: 10px 0;
+        width:calc(90% / 3);
+        float: left;
+        text-align: center;
+        line-height: 2.5rem;
+        font-size: 13px;
+    }
+    .m_header .m_top_l{
+        width:100%;
+        clear: both;
+    }
+    .m_header .m_top_l li{
+        width:calc(50% - 0.5px); 
+        float: left;
+        line-height: 2.5rem;
+        text-align: center;
+        background-color: #ebebeb;
+        border-bottom: 1px solid #ebebeb;
+        border-top:1px solid #ebebeb;
+        font-size: 14px;
+    }
+    .m_header .m_top_l li:last-child{
+        color:#fff;
+        background-color: #3F3F3F;
+    }
+    .m_header .m_menu{
+        clear: both;
+    }
+    .m_header .m_menu > li{
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 2rem;
+        padding: 10px 30px;
+    }
+    .m_header .m_menu > li a{
+        display: block;
+        width:100%;
+    }
+    .m_header .m_menu > li ul{
+        font-size: 15px;
+        font-weight: normal;
+        padding: 10px;
+        display: none;
+    }
+    .m_header .m_menu > li ul li{
+        line-height: 2rem;
+    }
+    .main_sld{
+        padding-top:60px;
+    }
+    .main_sld p{
+        margin-left: 20px;   
+    }
+    .ser .ser_l{
+        width:calc(100% - 80px);
+        border-radius: 10px 10px 0 0;
+        padding: 10px 20px;
+        margin: 0 20px;
+        background-position: 160px;
+        background-size: 25px;
+    }
+    .ser .ser_r{
+        width:calc(100% - 40px);
+        border-radius: 0 0 10px 10px;
+        margin: 0 20px 10px 20px;
+        
+    }
+    .ser .ser_r ul{
+        width: calc(100% - 20px);
+        margin-left: 10px;
+    }
+    .main_box{
+        clear: both;
+    }
+    .m_box{
+        width:calc(100% - 100px);
+        padding: 20px 30px 20px 30px;
+        margin: 10px 20px;
+        float: left;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+    .m_box .m_tit{
+        margin-bottom: 10px;
+    }
+    .m_box:first-child{
+        background:#fff;
+    }
+    .m_box:nth-child(2){
+        background:#fff;
+    }
+    .m_box:first-child .m_tit{
+        color: #EF8687;
+    }
+    .m_box:nth-child(2) .m_tit{
+        color: #61B0B1;
+    }
+    .main_body{
+        height: 1160px;
+    }
+    .inq_box button{
+        background-color: #fff;
+        color:#ffc700;
+        position: absolute;
+        width:40%;
+        right: 30px;
+        bottom: 20px;
+        line-height: 3rem;
+    }
+    .fee_info{
+        padding: 10px 0;
+    }
+    .new_not .new_tit{
+        height: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .inq_box{
+        text-align: left;
+        position: relative;
+    }
+    footer .f_line{
+        padding:10px 0;
+    }
+    footer .f_menu ul{
+        font-size: 13px;
+        width:100%;
+    }
+    footer .f_menu ul li{
+        width: calc(20% - 20px);
+        text-align: center;
+        padding: 0 10px;
+    }
+    footer .f_menu ul li:first-child{
+        padding-left: 10px;
+    }
+    footer .f_info ul li{
+        width:calc(100% - 140px);
+        margin-left: 20px;
+        font-size: 12px;
+        line-height: 1rem;
+    }
+    footer .f_info{
+        height:auto;
+        height:80px;
+    }
+    footer .f_info img{
+        width: 100px; 
+        margin-right: 20px;
+    }
+    .sub_top{
+        padding-top: 60px;
+    }
+    .sub_top .sel_menu{
+        left: 0;
+    }
+    .sub_top .sel_btn_r li:first-child a{
+        display: none;
+    }
+    .sub_top .sel_btn_r li:last-child a{
+        display: none;
+    }
+    .sub_top .sel_box{
+        float: left;
+        width: calc((100% / 3) - 1px);
+        position: relative;
+        height: 49px;
+        border-right:1px solid #ebebeb;
+        border-bottom: 1px solid #ebebeb;
+        overflow: hidden;
+        z-index: 99999;
+    }
+    .sub_top .sel_box button{
+        right: 10px;
+    }
+    .sub_top .sel_btn_l li a{
+        display: none;
+    }
+    .sub_top .sel_box li a{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+    }
+    .sub_con{
+        padding: 30px 20px;
+        margin-bottom: 0;
+    }
+    .sub_con .sub_tit{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .sub_con .sub_tit .line{
+        height: 20px;
+    }
+    .sub_con .sub_exp{
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    .sub_top h2{
+        font-size: 30px;
+        padding: 30px;
+    }
+    .sub_top{
+        height:150px;
+    }
+    .cus_ser{
+        background-size: cover;
+    }
+    .cus_ser .ser_li{
+        width:calc(100% - 40px);
+        padding:20px;
+    }
+    .cus_ser .ser_li li{
+        font-size: 16px;
+        line-height: 2rem;
+    }
+    #ent_tb{
+        width:100%;
+    }
+    #ent_tb tr{
+        font-size: 15px;
+    }
+    .park{
+        margin-bottom: 50px;
+        padding-bottom: 150px;
+    }
+    .c_con{
+        width:100%;
+    }
+    .c_map{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .c_pic{
+        width:640px;
+        margin-left: calc(50% - 320px);
+        background-size: cover;
+    }
+    .c_btn{
+        width:640px;
+        margin-left: calc(50% - 320px);
+    }
+    .c_pic ul li img{
+        width:100%;
+        height: 300px;
+    }
+    .zone{
+        padding-bottom: 300px;
+    }
+    .b_con{
+        width:100%;
+    }
+    .b_map{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .b_btn{
+        width:640px;
+        margin-left: calc(50% - 320px);
+    }
+    .fac li div{
+        width:100%;
+    }
+    .fac li .fac_l img{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .fac li div:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .fac li .fac_r h2{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .fac li .fac_r .sub_exp{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .fac li .fac_r .fac_info{
+        font-size: 14px;
+    }
+    .way{
+        margin-bottom: 100px;
+    }
+    .way li{
+        width:100%;
+        line-height: 2rem;
+        font-size: 15px;
+    }
+    .gro_info table{
+        font-size: 13px;
+        white-space: pre-line;
+        word-break: keep-all;
+    }
+    .gro_info table tr:first-child th{
+        font-size: 15px;
+    }
+    .gro_info table tr:nth-child(2n) th{
+        font-size: 15px;
+    }
+    .gro_info table tr:nth-child(2) td:nth-child(7){
+        font-size: 15px;
+    }
+    .grp_not h2{
+        font-size: 17px;
+    }
+    .grp_prg li:first-child div:first-child{
+        background-position: center;
+    }
+    .grp_prg li:nth-child(2) div:first-child{
+        background-position: center;
+    }
+    .grp_prg li:nth-child(3) div:first-child{
+        background-position: center;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .main_sld{
+        height:200px;
+    }
+    .main_sld p{
+        font-size: 20px;
+        line-height: 2rem;
+        bottom:20px;
+        left: 20px;
+
+    }
+    .intro{
+        width:calc(100% - 60px);
+        padding: 30px;
+        display: inline-block;
+    }
+    .intro img{
+        margin:0;
+        margin-bottom: 30px;
+    }
+    #ent_tb .ent_fee p{
+        width:100%;
+    }
+    .ent{
+        background-size: 200px;
+    }
+    .park{
+        background-size: 200px;
+    }
+    .c_pic{
+        width:100%;
+        margin-left:0;
+        background-color: #F1F1F1;
+        background-size: contain;
+    }
+    .c_btn{
+        width:100%;
+        margin-left: 0;
+    }
+    .c_btn ul li{
+        font-size: 15px;
+        line-height: 2rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .c_pic ul li img{
+        width:100%;
+    }
+    .zone{
+        background-size: 300px;
+        padding-bottom: 200px;
+    }
+    .c_pic ul li p{
+        font-size: 15px;
+    }
+    .c_pic ul li p span{
+        font-size: 12px;
+    }
+    .b_btn{
+        width:100%;
+        margin-left: 0;
+    }
+    .b_btn ul li{
+        font-size: 15px;
+        line-height: 2rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .ind_info{
+        background-size: 200px;
+        padding-bottom: 100px;
+    }
+    .gro_info table tr:first-child th{
+        font-size: 13px;
+        line-height: 2rem;
+        white-space: pre-line;
+        word-break: keep-all;
+    }
+    .gro_info table tr:nth-child(2n) th{
+        font-size: 13px;
+    }
+    .gro_info table tr:nth-child(2) td:nth-child(7){
+        font-size: 13px;
+        white-space: pre-line;
+        word-break: keep-all;
+    }
+    .grp_prg li{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .grp_prg li:last-child{
+        margin-bottom: 30px;
+    }
+    .fam_prg .grp_not{
+        width:100%;
+        height:auto;
+        margin:0;
+    }
+    .sitemap .map_menu{
+        width: calc((100% / 2) - 5px);
+        margin-right: 10px;
+        float: left;
+        margin-bottom: 100px;
+    }
+    .sitemap .map_menu:nth-child(2n){
+        margin-right: 0;
+    }
+    .sitemap .map_menu:nth-child(3){
+        clear: left;
+    }
+    .sitemap .map_menu:nth-child(4){
+        clear: none;
+    }
+    .sitemap .map_menu:nth-child(5){
+        clear: left;
+    }
+    .sitemap .map_menu .map_tit{
+        padding: 15px 20px;
+        border-bottom: 2px solid #333;
+        font-size: 12px;
+    }
+    .sitemap .map_menu .map_list > li > a{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .sitemap .map_menu .map_list > li > ul{
+        padding: 15px 15px;
+    }
+    .sitemap .map_menu .map_list > li > ul li a{
+        width:calc(100% - 20px);
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    
+}
+
+
+@media screen and (max-width:400px){
+    .m_box p{
+        font-size: 12px;
+    }
+    .m_box .m_tit{
+        font-size: 13px;
+    }
+    .last_not ul li p:first-child{
+        font-size: 12px;
+    }
+    .last_not ul li p:last-child{
+        font-size: 12px;
+    }
+    .fee_info .fee_tit{
+        font-size: 15px;
+    }
+    .fee_info .fee_tit span{
+        font-size: 12px
+    }
+    .fee_info h2{
+        font-size: 20px;
+    }
+    .inq_box .inq_time{
+        font-size: 15px;
+    }
+    .inq_box .inq_tel{
+        font-size: 20px;
+    }
+    .inq_box button{
+        display: none;
+    }
+    .main_body{
+        height:1300px;
+        padding: 30px 0 0 0;
+    }
+    .ser .ser_l{
+        background-size: 20px;
+        background-position: 120px;
+    }
+    .ser .ser_l p{
+        font-size: 15px;
+    }
+    .ser .ser_r ul li{
+        float: left;
+        padding: 20px 0;
+        text-align: center;
+        width: calc(100% / 3)
+    }
+    .main_sld{
+        height: 150px;
+    }
+    .main_sld p{
+        font-size: 13px;
+        line-height: 1.5rem;
+    }
+    .new_not .new_tit{
+        height: 15px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    footer .f_menu ul{
+        height: 45px;
+    }
+    footer .f_menu ul li{
+        width: calc((100% / 3) - 20px);
+        line-height: 1.5rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
