@@ -383,6 +383,7 @@
         width:calc(100% - 60px);
         padding: 30px;
         display: inline-block;
+        letter-spacing: -0.5px;
     }
     .intro img{
         margin:0;
@@ -450,6 +451,10 @@
     }
     .gro_info table tr:nth-child(2n) th{
         font-size: 13px;
+        line-height: 1rem;
+    }
+    .gro_info table td{
+        vertical-align: middle;
     }
     .gro_info table tr:nth-child(2) td:nth-child(7){
         font-size: 13px;
@@ -563,7 +568,7 @@
         line-height: 1.5rem;
     }
     .new_not .new_tit{
-        height: 15px;
+        height: 20px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
