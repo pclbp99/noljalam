@@ -40,11 +40,11 @@
     .m_header > a{
         position: absolute;
         top:2%;
-        right: 3%;
+        right: 10%;
     }
     .m_header .m_top_r li{
         margin: 10px 0;
-        width:calc(90% / 3);
+        width:calc(100% / 3);
         float: left;
         text-align: center;
         line-height: 2.5rem;
