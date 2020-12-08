@@ -385,6 +385,12 @@
         display: inline-block;
         letter-spacing: 0px;
     }
+    .intro h2{
+        letter-spacing: -1.5px;
+    }
+    .intro p{
+        letter-spacing: -1px;
+    }
     .intro img{
         margin:0;
         margin-bottom: 30px;
