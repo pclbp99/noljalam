@@ -147,10 +147,11 @@
         background-color: #fff;
         color:#ffc700;
         position: absolute;
-        width:40%;
-        right: 30px;
-        bottom: 20px;
-        line-height: 3rem;
+        width:35%;
+        right: 20px;
+        bottom: 30px;
+        line-height: 2rem;
+        font-size: 15px;
     }
     .fee_info{
         padding: 10px 0;
@@ -547,7 +548,7 @@
         font-size: 20px;
     }
     .inq_box button{
-        display: none;
+       font-size: 13px;
     }
     .main_body{
         height:1300px;
