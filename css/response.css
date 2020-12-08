@@ -516,6 +516,16 @@
         padding: 10px 10px;
         font-size: 13px;
     }
+    footer .f_menu ul{
+        height: 45px;
+    }
+    footer .f_menu ul li{
+        width: calc((100% / 3) - 20px);
+        line-height: 1.5rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
     
 }
 
@@ -577,16 +587,6 @@
     }
     .new_not .new_tit{
         height: 20px;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-    }
-    footer .f_menu ul{
-        height: 45px;
-    }
-    footer .f_menu ul li{
-        width: calc((100% / 3) - 20px);
-        line-height: 1.5rem;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
